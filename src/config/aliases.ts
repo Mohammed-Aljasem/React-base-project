@@ -1,0 +1,27 @@
+export const alias = (prefix = `src`) => ({
+  '@templates': `${prefix}/components/templates`,
+  '@components': `${prefix}/components`,
+  '@features': `${prefix}/features`,
+  '@config': `${prefix}/config`,
+  '@enums': `${prefix}/enums`,
+  '@hooks': `${prefix}/hooks`,
+  '@styles': `${prefix}/styles`,
+  '@utils': `${prefix}/utils`,
+  '@state': `${prefix}/state`,
+  '@types': `${prefix}/types`,
+  '@storybookHelpers': `../.storybook/helpers`,
+
+  '@assets': `${prefix}/assets`,
+  '@pages': `${prefix}/pages`,
+  '@api': `${prefix}/api`,
+  '@context': `${prefix}/context`,
+  '@reducers': `${prefix}/reducers`,
+  '@constants': `${prefix}/constants`,
+  '@services': `${prefix}/services`,
+  '@containers': `${prefix}/containers`,
+  '@layouts': `${prefix}/layouts`,
+  '@helpers': `${prefix}/helpers`,
+  '@routes': `${prefix}/routes`,
+  '@theme': `${prefix}/theme`,
+});
+
